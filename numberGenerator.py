@@ -21,3 +21,10 @@ while guessesTaken < 6:
 		print('Your guess is too high.')
 	if guess == number:
 		break
+
+if guess == number:
+	guessesTaken = str(guessesTaken)
+	print('Good job, ' + myName + '! You guess my number in ' + guessesTaken + ' guesses!')
+if guess != number:
+	number = str(number)
+	print('Nope. The number I was thinking of was ' + number)
